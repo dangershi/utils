@@ -73,7 +73,6 @@ public class QRCodeEncoderHandler {
     
     public static void main(String[] args) {  
         
-        //公司的面试扫码签到的二维码地址
         String imgPath = "D:/test_qrcode/testNameQRCode.png";  
         String content = "https://www.baidu.com";  
         QRCodeEncoderHandler.encoderQRCode(content, imgPath);
